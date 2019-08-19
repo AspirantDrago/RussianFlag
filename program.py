@@ -13,9 +13,9 @@ def draw():
     flagpole_rect = [(40, 20), (5, height - 20 * 2)]
     pygame.draw.rect(screen, flagpole_color, flagpole_rect)
     # Рисуем синий сегмент (цвет по ГОСТу Р 51130-98)
-    segment_red_color = [0, 57, 166]
-    segment_red_rect = [(30, 30 + 2 * 40), (9 * 40, 2 * 40)]
-    pygame.draw.rect(screen, segment_red_color, segment_red_rect)
+    segment_blue_color = [0, 57, 166]
+    segment_blue_rect = [(30, 30 + 2 * 40), (9 * 40, 2 * 40)]
+    pygame.draw.rect(screen, segment_blue_color, segment_blue_rect)
     # Рисуем красный сегмент (цвет по ГОСТу Р 51130-98)
     segment_red_color = [213, 43, 30]
     segment_red_rect = [(30, 30 + 2 * 2 * 40), (9 * 40, 2 * 40)]
